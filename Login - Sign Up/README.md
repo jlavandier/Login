@@ -20,7 +20,7 @@ This is a useful template design for login and sign up account page. Is totally 
 
 ![SignUp](https://user-images.githubusercontent.com/106609873/222875426-757e4b77-4400-4d7c-aaa1-7638363195bb.png)
 
-![SignUp-Dark](https://user-images.githubusercontent.com/106609873/222875430-3f02534d-9bdf-4e92-a9cc-e8c22604caf4.png)
+![SignUp-Dark](https://user-images.githubusercontent.com/106609873/222875492-c419eb7e-8128-4d11-88e8-07626a529234.png)
 
 
 ### Built with
