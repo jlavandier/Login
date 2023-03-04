@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="container-login">
+        <div class="header">
+            <div class="title">
+                <h1>Log In</h1>
+            </div>
+            <div class="darkmode">
+                        <label class="switch">
+                            <input type="checkbox" id="toggle-button">
+                            <span class="slider"></span>
+                          </label>
+                    </div>
+            </div>
+
+        <form action="#" method="#">
+
+                <label for="username">
+                    <span>Username</span>
+                    <input type="text" id="username" name="username" required>
+                </label>
+                <label for="password">
+                    <span>Password</span>
+                    <input type="password" id="password" name="password" required min="6">
+                </label>
+                
+             <div class="remember">     
+            <label for="checkbox" class="checkbox-label-login">
+                <input type="checkbox" id="checkbox" required>
+                <span>Remember Me</span>
+            </label>
+        </div>  
+        <div>
+            <a href="#" class="fg-password">
+                <span>Forget Password?</span>
+            </a>
+        </div>
+            <button type="submit" class="submit-btn">Create an account</button>
+        </form>
+
+        <div class="login">
+            <a href="sign-up.html"><span id="login-link">Create Account</span></a></p>
+        </div>   
+</div>
+    
+</body>
+</html>
+
+<script>
+    const toggleButton = document.querySelector('#toggle-button');
+
+toggleButton.addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode');
+});
+</script>

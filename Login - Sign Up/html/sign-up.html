@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title">
+                <h1>Create an accout</h1>
+            </div>
+            <div class="darkmode">
+                        <label class="switch">
+                            <input type="checkbox" id="toggle-button">
+                            <span class="slider"></span>
+                          </label>
+                    </div>
+            </div>
+
+        <div class="buttons">
+            <button class="google-btn">
+                <picture>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/480px-Google_%22G%22_Logo.svg.png" alt="Google.Logo">
+                </picture>
+                <span>Sign up with Google</span>
+            </button>
+            <button class="twitter-btn">
+                <picture> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png" alt="Logo Twitter"></picture>
+                <span>Sign up with Twitter</span>
+            </button>
+        </div>
+        <div class="separator">
+            <hr>
+            <span>Or</span>
+            <hr>
+        </div>
+        <form action="#" method="#">
+            <div class="section-inputs">
+                <label for="name">
+                    <span>Name</span>
+                    <input type="text" id="name" name="name" required>
+                </label>
+                <label for="username">
+                    <span>Username</span>
+                    <input type="text" id="username" name="username" required>
+                </label>
+            </div>
+            <label for="email">
+                <span>Email</span>
+                <input type="email" id="email" name="email" required placeholder="email@example.com"> 
+            </label>
+            <label for="password">
+                <span>Password</span>
+                <input type="password" id="password" name="password" placeholder="6+ characters" required min="6">
+            </label>
+            <label for="confirm-password">
+                <span>Confirm Password</span>
+                <input type="password" id="password" name="password" placeholder="6+ characters" required min="6">
+            </label>
+            <label for="checkbox" class="checkbox-label">
+                <input type="checkbox" id="checkbox" required>
+                <span>Accept term and conditions</span>
+            </label>
+            <button type="submit" class="submit-btn">Create an account</button>
+        </form>
+
+        <div class="login">
+            <p>Already have an account? <a href="index.html"> <span id="login-link">Log in here</span></a></p>
+        </div>
+
+<div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusamus. <a href="#" class="terms">Terms and conditions</a> laudantium accusantium et obcaecati iste quas libero? Quaerat voluptatem fugit fuga iste et nihil nam, eveniet officiis dolore recusandae voluptatibus.</p>
+</div>     
+</div>
+    
+</body>
+</html>
+
+<script>
+    const toggleButton = document.querySelector('#toggle-button');
+
+toggleButton.addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode');
+});
+</script>
