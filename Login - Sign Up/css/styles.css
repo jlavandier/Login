@@ -290,6 +290,20 @@ a:hover{
     text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+    .container{
+        display: flex;
+        margin: auto;
+        width: 100%;
+    }
+    .container-login{
+        display: flex;
+        margin: auto;
+        width: 100%;
+    }
+
+}
+
 /* Script dark Mode */
 
 #toggle-button {
