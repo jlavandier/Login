@@ -3,13 +3,15 @@
 *{
     font-family: 'Ubuntu', sans-serif;
 }
+
 .container{
     margin-top: 200px;
     margin: auto;
-    display: flex;
+    display: grid;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    place-items: center;
     gap: 15px;
     width: 450px;
 }
@@ -17,7 +19,8 @@
 .container-login{
     margin-top: 200px;
     margin: auto;
-    display: flex;
+    display: grid;
+    place-items: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -221,17 +224,16 @@ label input:focus{
 .checkbox-label-login{
     display: flex;
     flex-direction: row;
+    text-align: center;
+    justify-content: center;
 }
 
-.fg-password{
-    float: right;
-    text-align: end;
-    margin-top: -50px;
-    flex-direction: row;
-}
-
-.remember{
-    margin-top: 10px;
+.main-options{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 #login-link a:link{
@@ -372,6 +374,10 @@ a:hover{
 }
 
 .dark-mode .checkbox-label input[type="checkbox"]{
+    box-shadow: none;
+}
+
+.dark-mode .checkbox-label-login input[type="checkbox"]{
     box-shadow: none;
 }
 
