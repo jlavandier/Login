@@ -12,7 +12,7 @@
 
 This is a useful template design for login and sign up account page. Is totally responsive (mobile first) and have an additional option change to dark mode with a javascript command
 
-Try the website https://jlavandier.github.io/Login/
+### Try the website here: https://jlavandier.github.io/Login/
 
 ### Screenshot
 
