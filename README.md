@@ -1,18 +1,17 @@
 # Login and Sign up design with dark mode option
 
-
 ## Table of contents
 
 - [Overview](#overview)
 - [Screenshot](#screenshot)
-- [Built with](builtwith)
+- [Built with](#built-with)
 - [Author](#author)
 
 ## Overview
 
 This is a useful template design for login and sign up account page. Is totally responsive (mobile first) and have an additional option change to dark mode with a javascript command
 
-### Try the website here: https://jlavandier.github.io/Login/
+### Try the website here: [Demo](https://jlavandier.github.io/Login/Login%20-%20Sign%20Up/html/index.html)
 
 ### Screenshot
 
